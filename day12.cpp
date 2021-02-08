@@ -85,6 +85,6 @@ int main() {
         update_pos_part2(cmd, east, north, dir_east, dir_north);
     }
 
-    std::cout << "Manhattan ditance: " << abs(north) + abs(east) << std::endl; 
+    std::cout << "Manhattan distance: " << abs(north) + abs(east) << std::endl; 
 
 }
