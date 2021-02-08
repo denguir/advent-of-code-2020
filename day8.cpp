@@ -5,6 +5,7 @@
 #include <map>
 #include <tuple>
 
+
 std::tuple<bool, int> process_boot(std::vector<std::string> &instructions, std::vector<int> visited) {
     int i = 0;
     int acc = 0;

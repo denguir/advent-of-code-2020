@@ -4,7 +4,6 @@
 #include "day1.hpp"
 
 
-
 int extend(int target, int sum, std::vector<int>& numbers, std::ifstream& infile) {
     int n;
     std::string line;
