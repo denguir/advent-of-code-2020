@@ -84,7 +84,7 @@ uint64 crt(std::vector<uint64>& m, std::vector<uint64>& a) {
     return res;
 }
 
-int seq_ts(std::vector<uint64>& busno, std::vector<uint64>& busidx) {
+uint64 seq_ts(std::vector<uint64>& busno, std::vector<uint64>& busidx) {
     std::vector<uint64> a;
     uint64 ai;
     uint64 ts;
